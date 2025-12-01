@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from questions import questions
 import os
+import random
 
 app = Flask(__name__, static_folder="static")
 
@@ -13,6 +14,14 @@ def index():
     # Reset khi bắt đầu lại quiz
     session["correct"] = 0
     session["wrong"] = 0
+
+    # Tạo danh sách thứ tự câu hỏi và xáo trộn
+    order = list(range(1, len(questions) + 1))
+    random.shuffle(order)
+
+    # Lưu vào session
+    session["order"] = order
+
     return render_template("index.html", total=len(questions))
 
 
@@ -23,13 +32,17 @@ def quiz(q_id):
     if q_id > len(questions):
         return redirect(url_for("finish"))
 
-    # Nếu session chưa có thì khởi tạo
-    if "correct" not in session:
-        session["correct"] = 0
-    if "wrong" not in session:
-        session["wrong"] = 0
+    # Nếu chưa có session thì quay về trang chủ
+    if "order" not in session:
+        return redirect(url_for("index"))
 
-    question = questions[q_id - 1]
+    # Lấy danh sách ID thật đã shuffle
+    order = session["order"]
+
+    # Lấy ID thật tương ứng với vị trí q_id
+    real_id = order[q_id - 1]
+
+    question = questions[real_id - 1]
 
     # Nếu user submit đáp án
     if request.method == "POST":
