@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kết quả</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    {% if correct %}
+        <h2 class="result-correct">🎉 Chuẩn lun!</h2>
+    {% else %}
+        <h2 class="result-wrong">❌ Sai rồi em ơi!</h2>
+
+        <p style="text-align:center; font-size:18px;">
+            Đáp án đúng phải là: 
+            <b>{{ question.answer }} – {{ question.options[question.answer] }}</b>
+        </p>
+
+    {% endif %}
+
+    <div style="text-align:center; margin-top:20px;">
+        <a href="/quiz/{{ next_id }}" class="button">👉 Câu tiếp theo</a>
+    </div>
+
+</div>
+
+</body>
+</html>
