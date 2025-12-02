@@ -195,7 +195,7 @@ questions = [
         "c": "450.000.000 đồng",
         "d": "1.200.000.000 đồng"
     },
-    "answer": "c"
+    "answer": "a"
 },
 {
     "id": 19,
@@ -426,7 +426,7 @@ questions = [
       "c": "Bà C, Bà D, Anh E",
       "d": "Bà C, Bà D, thai nhi 05 tháng tuổi và Anh E"
   },
-  "answer": "d"
+  "answer": "a"
 },
 {
   "id": 40,
@@ -437,7 +437,7 @@ questions = [
       "c": "Phải chia lại phần di sản còn lại nếu người thừa kế di chúc yêu cầu",
       "d": "Người hưởng di sản theo di chúc được bồi hoàn một phần"
   },
-  "answer": "c"
+  "answer": "a"
 },
 {
   "id": 41,
@@ -481,7 +481,7 @@ questions = [
       "c": "Nhà nước phân chia dân cư theo các đơn vị hành chính lãnh thổ",
       "d": "Nhà nước có chủ quyền quốc gia"
   },
-  "answer": "c"
+  "answer": "b"
 },
 {
   "id": 45,
@@ -713,7 +713,7 @@ questions = [
         "c": "Bất cứ Nhà nước nào cũng đều mang bản chất giai cấp và bản chất xã hội",
         "d": "Nhà nước nào cũng chỉ mang bản chất xã hội"
     },
-    "answer": "b"
+    "answer": "c"
 },
 {
     "id": 66,
@@ -1727,7 +1727,7 @@ questions = [
             "c": "Nhũng nhiễu vì vụ lợi",
             "d": "Lạm dụng chức vụ quyền hạn chiếm đoạt tài sản"
         },
-        "answer": "a"
+        "answer": "b"
     },
     {
         "id": 158,
@@ -2189,7 +2189,7 @@ questions = [
         "c": "Phạt tiền và trục xuất",
         "d": "Trục xuất"
     },
-    "answer": "b"
+    "answer": "a"
 },
 {
     "id": 200,
@@ -2200,7 +2200,7 @@ questions = [
         "c": "Khả năng nhận thức và điều chỉnh hành vi của tổ chức",
         "d": "Khả năng nhận thức và điều chỉnh hành vi của cá nhân"
     },
-    "answer": "a"
+    "answer": "d"
 },
 {
     "id": 201,
@@ -2321,7 +2321,7 @@ questions = [
         "c": "Dành toàn bộ di sản để từ thiện trong mọi trường hợp",
         "d": "Chỉ định người thừa kế và chỉ người được ghi trong di chúc mới được hưởng"
     },
-    "answer": "d"
+    "answer": "a"
 },
 {
     "id": 212,
@@ -2332,7 +2332,7 @@ questions = [
         "c": "81 triệu đồng",
         "d": "80 triệu đồng"
     },
-    "answer": "c"
+    "answer": "d"
 },
 {
     "id": 213,
@@ -2442,7 +2442,7 @@ questions = [
         "c": "400.000.000 đồng",
         "d": "300.000.000 đồng"
     },
-    "answer": "b"
+    "answer": "c"
 },
 {
     "id": 223,
@@ -2530,7 +2530,7 @@ questions = [
         "c": "Không có quy định của pháp luật",
         "d": "Di chúc không hợp pháp"
     },
-    "answer": "a"
+    "answer": "b"
 },
 {
     "id": 231,
@@ -2948,7 +2948,7 @@ questions = [
         "c": "Quan hệ xã hội phát sinh trong quá trình quản lý nhà nước về kinh tế",
         "d": "Quan hệ xã hội phát sinh trong quá trình hoạt động kinh doanh của các chủ thể kinh doanh"
     },
-    "answer": "a"
+    "answer": "b"
 },
 {
     "id": 269,
@@ -3003,7 +3003,7 @@ questions = [
         "c": "Hợp tác xã hoạt động như một loại hình doanh nghiệp mà không phải là doanh nghiệp",
         "d": "Hợp tác xã là tổ chức kinh tế có tư cách pháp nhân"
     },
-    "answer": "c"
+    "answer": "a"
 },
 {
     "id": 274,
@@ -3201,7 +3201,7 @@ questions = [
         "c": "Ngân hàng",
         "d": "Hộ kinh doanh"
     },
-    "answer": "d"
+    "answer": "c"
 },
 {
     "id": 292,
@@ -3267,7 +3267,7 @@ questions = [
         "c": "Là ngành luật độc lập điều chỉnh hoạt động kinh doanh trong nền kinh tế thị trường",
         "d": "Tất cả các phương án trên đều đúng"
     },
-    "answer": "d"
+    "answer": "a"
 },
 {
     "id": 298,
@@ -3312,7 +3312,7 @@ questions = [
         "c": "Hộ kinh doanh không được sử dụng con dấu",
         "d": "Chủ hộ kinh doanh có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký hộ kinh doanh"
     },
-    "answer": "b"
+    "answer": "a"
 },
 {
     "id": 302,
